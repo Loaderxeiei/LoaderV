@@ -1,8 +1,8 @@
 local BASE = "https://reaperxsecurity.vercel.app/"
 
 local ID = {
-    Waiting = 123,
-    Main = 456
+    Waiting = 1adnTKbJSDtfPo5nHB,
+    Main = PlvFEN6PFjtjtKgdAW
 }
 
 local Order = {
