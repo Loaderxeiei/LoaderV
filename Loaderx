@@ -1,4 +1,4 @@
--- This file was protected by REAPER HUB
+-- This file was protected by REAPER HUB 1.0
 local JfWO5vv3ML8A=function(...)
   return {n=select("#",...),...}
 end
